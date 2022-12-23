@@ -52,7 +52,7 @@ export class LancamentoCadastroComponent implements OnInit {
   }
 
   get editando() {
-    return Boolean(this.lancamento.codigo)
+    return Boolean(this.lancamento.codigo);
   }
 
   carregarLancamento(codigo: number) {
